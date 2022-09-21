@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.Test_script</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>THis is for testing Github Action integration</description>
+        <name>Test_script</name>
+        <script><![CDATA[var Test_script = Class.create();
+Test_script.prototype = {
+    initialize: function() {
+		var test='';
+    },
+
+    type: 'Test_script'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>mjawanjal@deloitte.com</sys_created_by>
+        <sys_created_on>2022-09-21 09:06:34</sys_created_on>
+        <sys_id>370b94ce478ad5102bb635a2e36d4317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test_script</sys_name>
+        <sys_package display_value="GitHubAction" source="0bf83f1d470655102bb635a2e36d433f">0bf83f1d470655102bb635a2e36d433f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHubAction">0bf83f1d470655102bb635a2e36d433f</sys_scope>
+        <sys_update_name>sys_script_include_370b94ce478ad5102bb635a2e36d4317</sys_update_name>
+        <sys_updated_by>mjawanjal@deloitte.com</sys_updated_by>
+        <sys_updated_on>2022-09-21 09:06:34</sys_updated_on>
+    </sys_script_include>
+</record_update>
